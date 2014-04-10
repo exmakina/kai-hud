@@ -2447,6 +2447,26 @@ Scheme
 			}
 		}
 		
+		kaistrong30
+		{
+			"1"
+			{
+				"name"		"ChunkFive"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		kaistrong36
+		{
+			"1"
+			{
+				"name"		"ChunkFive"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
 		kaireg10
 		{
 			"1"
