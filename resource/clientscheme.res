@@ -18,6 +18,13 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// kaiHUD colors
+		"kaihealth"			"245 222 186 255"
+		"kaiammo"			"245 222 186 255"
+		"kaishadow"			"46 43 42 255"
+		"kaiaccent"			"255 189 85 255"
+		"kaigrey"			"108 108 108 255"
+	
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
