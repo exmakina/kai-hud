@@ -1,6 +1,7 @@
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
+	
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
@@ -103,7 +104,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"0"
-		"ypos"			"r170"
+		"ypos"			"r200"
 		"zpos"			"2"		
 		"wide"			"100"
 		"tall"			"200"
@@ -199,7 +200,7 @@
 				"angles_z"		"-10"
 				"origin_x"		"120"
 				"origin_y"		"10"
-				"origin_z"		"-47"
+				"origin_z"		"-60"
 			}
 			"Sniper"
 			{
@@ -209,7 +210,7 @@
 				"angles_z"		"0"
 				"origin_x"		"140"
 				"origin_y"		"15"
-				"origin_z"		"-51"
+				"origin_z"		"-70"
 			}
 			"Soldier"
 			{
@@ -218,8 +219,8 @@
 				"angles_y"		"260"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"14"
-				"origin_z"		"-52"
+				"origin_y"		"20"
+				"origin_z"		"-78"
 			}
 			"Demoman"
 			{
@@ -229,7 +230,7 @@
 				"angles_z"		"0"
 				"origin_x"		"138"
 				"origin_y"		"13"
-				"origin_z"		"-55"
+				"origin_z"		"-70"
 			}
 			"Medic"
 			{
@@ -239,7 +240,7 @@
 				"angles_z"		"0"
 				"origin_x"		"170"
 				"origin_y"		"5"
-				"origin_z"		"-57"
+				"origin_z"		"-80"
 			}
 			"Heavy"
 			{
@@ -247,9 +248,9 @@
 				"angles_x"		"0"
 				"angles_y"		"270"
 				"angles_z"		"0"
-				"origin_x"		"210"
-				"origin_y"		"15"
-				"origin_z"		"-55"
+				"origin_x"		"230"
+				"origin_y"		"17"
+				"origin_z"		"-80"
 			}
 			"Pyro"
 			{
@@ -259,7 +260,7 @@
 				"angles_z"		"0"
 				"origin_x"		"200"
 				"origin_y"		"30"
-				"origin_z"		"-50"
+				"origin_z"		"-65"
 			}
 			"Spy"
 			{
@@ -269,7 +270,7 @@
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"15"
-				"origin_z"		"-56"
+				"origin_z"		"-70"
 			}
 			"Engineer"
 			{
@@ -279,16 +280,16 @@
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"15"
-				"origin_z"		"-52"
+				"origin_z"		"-68"
 			}
 		}
 	}
 	
 	// OPTIONAL - background box
-	"AmmoBG"
+	"ClassBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoBG"
+		"fieldName"		"ClassBG"
 		"xpos"			"0"
 		"ypos"			"r90"
 		"zpos"			"-1"

@@ -104,8 +104,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"kaichargebar"
-		"bgcolor_override"	"kaichargebarbg"
 	}
 	"ChargeMeter2"
 	{	
@@ -124,8 +122,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"kaichargebar"
-		"bgcolor_override"	"kaichargebarbg"
 	}
 	"ChargeMeter3"
 	{	
@@ -144,8 +140,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"kaichargebar"
-		"bgcolor_override"	"kaichargebarbg"
 	}
 	"ChargeMeter4"
 	{	
@@ -164,8 +158,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"kaichargebar"
-		"bgcolor_override"	"kaichargebarbg"
 	}
 	
 	// removed

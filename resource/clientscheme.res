@@ -19,6 +19,8 @@ Scheme
 	Colors
 	{
 		// kaiHUD colors
+		"kaioffwhite"		"245 222 186 255"	// color used for most text
+		"kaioffwhitetrans"	"245 222 186 100"	// offwhite slightly transparent
 		"kaihealth"			"245 222 186 255"
 		"kaiammo"			"245 222 186 255"
 		"kaishadow"			"46 43 42 255"
@@ -2485,6 +2487,16 @@ Scheme
 			}
 		}
 		
+		kaireg8
+		{
+			"1"
+			{
+				"name"		"Neris SemiBold"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		
 		kaireg10
 		{
 			"1"
@@ -2530,6 +2542,66 @@ Scheme
 			"1"
 			{
 				"name"		"Neris SemiBold"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		kaithin8
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		
+		kaithin10
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+		
+		kaithin12
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		kaithin14
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		
+		kaithin16
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		kaithin18
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
 				"tall"		"18"
 				"antialias" "1"
 			}
