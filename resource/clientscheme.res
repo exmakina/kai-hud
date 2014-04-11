@@ -24,6 +24,17 @@ Scheme
 		"kaishadow"			"46 43 42 255"
 		"kaiaccent"			"255 189 85 255"
 		"kaigrey"			"108 108 108 255"
+		"kaibgbox"			"0 0 0 125"
+		"kaihealthbonus"	"141 248 255 255"
+		"kaihealthwarning"	"255 87 28 255"
+		"kaiammowarning"	"255 87 28 255"
+		"kaicharge"			"245 222 186 255"
+		"kaifullcharge"		"141 248 255 255"
+		"kaifullchargeflash" "255 255 255 255"
+		"kaichargebarbg"	"0 0 0 0"
+		"kaichargebar"		"245 222 186 100"
+		"kaichargebarfull"	"141 248 255 255"
+		"kaichargebarfullflash"	"255 255 255 255"
 	
 		// base colors
 		"Orange"			"178 82 22 255"
