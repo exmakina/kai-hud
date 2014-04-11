@@ -435,11 +435,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"141 248 255 255"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"kaifullcharge"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"kaifullchargeflash"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"255 255 255 100"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"245 222 186 100"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"kaichargebarfull"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"kaichargebarfullflash"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }

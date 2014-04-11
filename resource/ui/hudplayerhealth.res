@@ -16,6 +16,8 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+	
+	// removed
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,7 +30,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
-	}		
+	}
+
+	// removed	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,7 +47,9 @@
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}	
+	}
+	
+	// removed
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,6 +64,8 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	
+	// numerical health
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -89,7 +97,9 @@
 		"textAlignment"	"center"	
 		"font"			"kaistrong36"
 		"fgcolor"		"kaishadow"
-	}		
+	}
+	
+	// staus effects
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -202,7 +212,6 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -251,8 +260,6 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-	
-
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
@@ -270,7 +277,6 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -287,7 +293,6 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_SoldierDefenseBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -304,7 +309,6 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
-
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"ControlName"	"ImagePanel"

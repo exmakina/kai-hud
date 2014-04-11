@@ -30,11 +30,11 @@ Scheme
 		"kaiammowarning"	"255 87 28 255"
 		"kaicharge"			"245 222 186 255"
 		"kaifullcharge"		"141 248 255 255"
-		"kaifullchargeflash" "255 255 255 255"
+		"kaifullchargeflash" "0 180 192 255"
 		"kaichargebarbg"	"0 0 0 0"
 		"kaichargebar"		"245 222 186 100"
-		"kaichargebarfull"	"141 248 255 255"
-		"kaichargebarfullflash"	"255 255 255 255"
+		"kaichargebarfull"	"0 180 192 100"
+		"kaichargebarfullflash"	"141 248 255 100"
 	
 		// base colors
 		"Orange"			"178 82 22 255"

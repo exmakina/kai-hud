@@ -1,5 +1,6 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
+	// removed
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -18,6 +19,8 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
+	
+	// removed
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -65,7 +68,7 @@
 		"wide"			"50"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 	}				
@@ -130,7 +133,7 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"

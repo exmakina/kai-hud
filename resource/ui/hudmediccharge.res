@@ -1,5 +1,6 @@
 "Resource/UI/HudMedicCharge.res"
 {	
+	// removed
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -17,6 +18,7 @@
 		"teambg_3"		"../hud/medic_charge_blue_bg"				
 	}
 	
+	// charge percentage
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -39,6 +41,7 @@
 		"fgcolor"		"kaicharge"
 	}
 
+	// number of Vaccinator charges
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -61,6 +64,7 @@
 		"fgcolor"		"kaicharge"
 	}
 	
+	// continuous Medigun meter
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -82,6 +86,7 @@
 		"bgcolor_override"	"kaichargebarbg"
 	}
 
+	// individual Vaccinator charges
 	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -102,7 +107,6 @@
 		"fgcolor_override"	"kaichargebar"
 		"bgcolor_override"	"kaichargebarbg"
 	}
-
 	"ChargeMeter2"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -123,7 +127,6 @@
 		"fgcolor_override"	"kaichargebar"
 		"bgcolor_override"	"kaichargebarbg"
 	}
-
 	"ChargeMeter3"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -144,7 +147,6 @@
 		"fgcolor_override"	"kaichargebar"
 		"bgcolor_override"	"kaichargebarbg"
 	}
-
 	"ChargeMeter4"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -166,6 +168,7 @@
 		"bgcolor_override"	"kaichargebarbg"
 	}
 	
+	// removed
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
