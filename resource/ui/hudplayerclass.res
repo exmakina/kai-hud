@@ -198,7 +198,7 @@
 				"angles_x"		"0"
 				"angles_y"		"270"
 				"angles_z"		"-10"
-				"origin_x"		"120"
+				"origin_x"		"100"
 				"origin_y"		"10"
 				"origin_z"		"-60"
 			}
