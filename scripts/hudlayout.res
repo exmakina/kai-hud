@@ -1,5 +1,25 @@
 "Resource/HudLayout.res"
 {
+	// custom crosshair
+	xHair
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 "xHair"
+		"visible"	 "1"
+		"enabled"	 "1"
+		"zpos"	 "2"
+
+		"xpos"	 "c-7"
+		"ypos"	 "c-24"
+		"wide"	 "46"
+		"tall"	 "49"
+
+		"font"	 "xhairkonrwings"
+		"labelText"	 "Z"
+		"textAlignment"	"west"	
+		"fgcolor"	 "kaixhair"
+	}
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -1007,8 +1027,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-67"
-		"ypos"			"c47"
+		"xpos"			"c-100"
+		"ypos"			"c15"
 		"wide"			"200"
 		"tall"			"120"
 	}	
@@ -1097,7 +1117,7 @@
 		"ypos_lodef"				"75"
 		"zpos"					"2"
 		"wide"					"250"
-		"tall"					"80"
+		"tall"					"120"
 	}
 
 	HudTournamentSetup
@@ -1106,8 +1126,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-90"
-		"ypos"					"-70"
-		"ypos_lodef"				"75"
+		"ypos"					"-0"
 		"wide"					"180"
 		"tall"					"65"
 	}

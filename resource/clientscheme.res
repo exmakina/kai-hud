@@ -37,6 +37,10 @@ Scheme
 		"kaichargebar"		"245 222 186 100"
 		"kaichargebarfull"	"0 180 192 100"
 		"kaichargebarfullflash"	"141 248 255 100"
+		"kaixhair"			"255 255 255 150"
+		"kaixhairdmg"		"255 255 255 255"
+		"kaigood"			"141 248 255 255"
+		"kaibad"			"255 87 28 255"
 	
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -2606,7 +2610,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		// HUD crosshair font definitions
 
+		xhairkonrwings
+		{
+			"1"
+			{
+			"name"	 "Garm3nFont"
+			"tall"	 "12"
+			"weight"	"0"
+			"antialias"	"1"
+			}
+		}	
 	}
 
 
@@ -4540,6 +4556,12 @@ Scheme
 		{
 			"font" "resource/fonts/Neris-Thin.otf"
 			"name" "Neris Thin"
+		}
+		// custom crosshair files
+		"12" 
+		{
+			"font" "resource/crosshairs/Garm3nFont.ttf"
+			"name" "Garm3nFont"
 		}
 	}
 }

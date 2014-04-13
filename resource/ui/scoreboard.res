@@ -161,7 +161,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"kaireg14"
+		"font"			"kaithin18"
 		"fgcolor"		"kaioffwhitetrans"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
@@ -251,7 +251,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"kaireg14"
+		"font"			"kaithin18"
 		"fgcolor"		"kaioffwhitetrans"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
@@ -273,8 +273,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"kaireg12"
-		"fgcolor"		"kaioffwhitetrans"
+		"font"			"kaithin12"
+		"fgcolor"		"kaioffwhite"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"405"
@@ -289,15 +289,15 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"		"r28"
 		}
 	}
 	"ServerTimeLeft"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"kaireg12"
-		"fgcolor"		"kaioffwhitetrans"
+		"font"			"kaithin12"
+		"fgcolor"		"kaioffwhite"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
 		"xpos"			"405"
@@ -312,7 +312,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"		"r39"
 		}
 	}							
 	"BluePlayerList"
@@ -320,7 +320,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"c-250"
-		"ypos"			"75"
+		"ypos"			"100"
 		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"278"
@@ -342,7 +342,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c0"
-		"ypos"			"75"
+		"ypos"			"100"
 		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"278"
@@ -359,6 +359,7 @@
  			"visible"		"0"
  		}
 	}
+	// removed
 	"VerticalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -370,8 +371,8 @@
 		"tall"			"280"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
@@ -489,11 +490,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
-		if_mvm
-		{
-			"visible"		"1"
-		}
 	}							
 	"HorizontalLine"
 	{
@@ -941,7 +937,7 @@
 			"labelText"		"%mapname%"
 			"textAlignment"		"west"
 			"xpos"			"405"
-			"ypos"			"9"
+			"ypos"			"10"
 			"zpos"			"5"
 			"wide"			"400"
 			"tall"			"20"
@@ -949,25 +945,34 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+		
+			if_mvm
+			{
+				"ypos"		"15"
+			}
 		}	
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"ScoreboardVerySmall"
+			"font"			"kaithin10"
+			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"%gametype%"
-			"textAlignment"		"east"
-			"xpos"			"435"
-			"xpos_lodef"	"105"
-			"ypos"			"32"
+			"textAlignment"		"west"
+			"xpos"			"405"
+			"ypos"			"-2"
 			"zpos"			"3"
-			"wide"			"145"
+			"wide"			"400"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"185 177 153 255"
+			
+			if_mvm
+			{
+				"ypos"		"3"
+			}
 		}							
 		"Assists"
 		{
@@ -1049,7 +1054,7 @@
 			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
-			"xpos"			"244"
+			"xpos"			"264"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1067,7 +1072,7 @@
 			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
-			"xpos"			"244"
+			"xpos"			"264"
 			"ypos"			"15"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1121,7 +1126,7 @@
 			"fgcolor"		"kaioffwhite"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
-			"xpos"			"348"
+			"xpos"			"368"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1139,7 +1144,7 @@
 			"fgcolor"		"kaioffwhite"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
-			"xpos"			"348"
+			"xpos"			"368"
 			"ypos"			"15"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1157,7 +1162,7 @@
 			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"170"
+			"xpos"			"180"
 			"ypos"			"15"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1175,7 +1180,7 @@
 			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
-			"xpos"			"170"
+			"xpos"			"180"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1193,7 +1198,7 @@
 			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
-			"xpos"			"244"
+			"xpos"			"264"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1211,7 +1216,7 @@
 			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"			"170"
+			"xpos"			"180"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1229,7 +1234,7 @@
 			"fgcolor"		"kaioffwhite"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"274"
+			"xpos"			"284"
 			"ypos"			"15"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1247,7 +1252,7 @@
 			"fgcolor"		"kaioffwhite"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
-			"xpos"			"274"
+			"xpos"			"284"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1265,7 +1270,7 @@
 			"fgcolor"		"kaioffwhite"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
-			"xpos"			"348"
+			"xpos"			"368"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1283,7 +1288,7 @@
 			"fgcolor"		"kaioffwhite"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"274"
+			"xpos"			"284"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1301,7 +1306,7 @@
 			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
-			"xpos"			"170"
+			"xpos"			"180"
 			"ypos"			"45"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1319,7 +1324,7 @@
 			"fgcolor"		"kaioffwhite"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"
-			"xpos"			"274"
+			"xpos"			"284"
 			"ypos"			"45"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1337,7 +1342,7 @@
 			"fgcolor"		"kaioffwhitetrans"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
-			"xpos"			"244"
+			"xpos"			"264"
 			"ypos"			"45"
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1355,8 +1360,8 @@
 			"font"			"kaireg12"
 			"fgcolor"		"kaioffwhite"
 			"labelText"		"%bonus%"
-			"textAlignment"		"west"		[$WIN32]
-			"xpos"			"348"
+			"textAlignment"		"west"
+			"xpos"			"368"
 			"ypos"			"45"
 			"zpos"			"3"
 			"wide"			"35"
