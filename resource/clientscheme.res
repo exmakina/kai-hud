@@ -2421,6 +2421,16 @@ Scheme
 		
 		// kaiHUD font definitions
 		
+		kaistrong10
+		{
+			"1"
+			{
+				"name"		"ChunkFive"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+		
 		kaistrong12
 		{
 			"1"
@@ -2430,6 +2440,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		kaistrong14
+		{
+			"1"
+			{
+				"name"		"ChunkFive"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}	
 		
 		kaistrong16
 		{
@@ -2551,6 +2571,26 @@ Scheme
 			}
 		}
 		
+		kaireg20
+		{
+			"1"
+			{
+				"name"		"Neris SemiBold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		kaireg24
+		{
+			"1"
+			{
+				"name"		"Neris SemiBold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
 		kaithin8
 		{
 			"1"
@@ -2607,6 +2647,43 @@ Scheme
 			{
 				"name"		"Neris Thin"
 				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		kaithin20
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		kaithin22
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
+		kaithin24
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		kaithin30
+		{
+			"1"
+			{
+				"name"		"Neris Thin"
+				"tall"		"30"
 				"antialias" "1"
 			}
 		}

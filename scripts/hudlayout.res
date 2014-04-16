@@ -261,19 +261,11 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"c-150"
+		"ypos"		"200"
+		"wide"	 	"300"
+		"tall"	 	"40"
 		"priority"	"40"
-		"priority_lodef"	"5"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
 	}
 	
 	CSpectatorTargetID
@@ -281,16 +273,11 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"c-125"
+		"ypos"		"290"
+		"wide"	 	"150"
+		"tall"	 	"50"
 		"priority"	"40"
-		"priority_lodef" "35"
-		
-		"x_offset" "20"
-		"y_offset" "20"
 	}
 	
 	CSecondaryTargetID
@@ -298,18 +285,11 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"300"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"c-200"
+		"ypos"		"248"
+		"wide"	 	"400"
+		"tall"	 	"120"
 		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
 
 	}
 	
@@ -872,7 +852,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"215"
+		"ypos"					"60"
 		"wide"					"300"
 		"tall"					"300"
 	}
