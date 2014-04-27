@@ -2,6 +2,7 @@
 {
 	// Demoman: Sticky Bomb Launcher, Scottish Resistance, Sticky Jumper
 	// sticky counter
+	// meter at the top
 
 	// removed
 	"background"
@@ -27,11 +28,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"50"
+		"ypos"					"68"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"100"
+		"tall"					"10"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -41,7 +42,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"kaireg10"
+		"fgcolor_override"		"kaishadow"
 	}
 
 	"ChargeMeter"
@@ -49,11 +51,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
+		"xpos"					"50"
+		"ypos"					"68"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"6"				
+		"wide"					"100"
+		"tall"					"10"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -61,6 +63,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor_override"		"kaibgbox"
 	}				
 		
 	"PipesPresentPanel"
